@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+header {
+    font-size: 1.2rem;
+    padding: 1rem;
+    background: lightblue;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid dodgerblue 2px;
+}
+
+#contenues {
+    padding: 2rem;
+}
+
+li {
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+a {
+    border: solid lightskyblue 1px;
+    padding: 0.3rem;
+    background: aliceblue;
+    color: black;
+    border-radius: 5px;
+}
+
+a:hover {
+    border: solid dodgerblue 1px;
+    background: lightskyblue;
+}
